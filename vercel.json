@@ -1,9 +1,4 @@
 {
-  "functions": {
-    "api/**/*": {
-      "runtime": "vercel-node@3.x"
-    }
-  },
   "routes": [
     {
       "src": "/_build/(.*)",
