@@ -1,12 +1,17 @@
 {
+  "functions": {
+    "api/**/*.mjs": {
+      "runtime": "nodejs20.x"
+    }
+  },
   "routes": [
     {
-      "src": "/_build/(.*)",
-      "dest": "/.output/public/_build/$1"
+      "src": "/assets/(.*)",
+      "dest": "/public/assets/$1"
     },
     {
       "src": "/(.*)",
-      "dest": "/.output/server/index.mjs"
+      "dest": "/api/index.mjs"
     }
   ]
 }
