@@ -1,5 +1,5 @@
 globalThis.__nitro_main__ = import.meta.url;
-import { a as FastResponse, i as defineLazyEventHandler, n as HTTPError, t as H3Core } from "./_libs/h3+rou3+srvx.mjs";
+import { a as FastResponse, n as HTTPError, r as defineLazyEventHandler, t as H3Core } from "./_libs/h3+rou3+srvx.mjs";
 import { t as HookableCore } from "./_libs/hookable.mjs";
 //#region #nitro-vite-setup
 function lazyService(loader) {
@@ -18,28 +18,28 @@ var public_assets_data_default = {
 	"/assets/routes-BrhQIC24.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"3d57-cuAt/zQi/2Zy7FCRKQgrOUVi+eo\"",
-		"mtime": "2026-07-15T04:57:59.955Z",
+		"mtime": "2026-07-15T05:25:11.528Z",
 		"size": 15703,
 		"path": "../public/assets/routes-BrhQIC24.js"
 	},
 	"/assets/styles-XYKkzh-6.css": {
 		"type": "text/css; charset=utf-8",
 		"etag": "\"12716-t5YTEVCwRvXRJG2AficXGvnIiVA\"",
-		"mtime": "2026-07-15T04:57:59.957Z",
+		"mtime": "2026-07-15T05:25:11.540Z",
 		"size": 75542,
 		"path": "../public/assets/styles-XYKkzh-6.css"
 	},
 	"/assets/index-C84DYJfM.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"54153-VRwBfaIBW5u1Gbl8fMxbbUiZyR4\"",
-		"mtime": "2026-07-15T04:57:59.955Z",
+		"mtime": "2026-07-15T05:25:11.527Z",
 		"size": 344403,
 		"path": "../public/assets/index-C84DYJfM.js"
 	},
 	"/assets/Logo_Urbarent_PNG-C5BTcLyE.png": {
 		"type": "image/png",
 		"etag": "\"16bce4-Jgl13CCasYjIPRaPxSOwJhp4W60\"",
-		"mtime": "2026-07-15T04:57:59.956Z",
+		"mtime": "2026-07-15T05:25:11.539Z",
 		"size": 1490148,
 		"path": "../public/assets/Logo_Urbarent_PNG-C5BTcLyE.png"
 	}
@@ -79,11 +79,11 @@ var findRouteRules = /* @__PURE__ */ (() => {
 		return r;
 	};
 })();
-var _lazy_wrLkSE = defineLazyEventHandler(() => import("./_chunks/renderer-template.mjs"));
+var _lazy_hUE2Xl = defineLazyEventHandler(() => import("./_chunks/ssr-renderer.mjs"));
 var findRoute = /* @__PURE__ */ (() => {
 	const data = {
 		route: "/**",
-		handler: _lazy_wrLkSE
+		handler: _lazy_hUE2Xl
 	};
 	return ((_m, p) => {
 		return {

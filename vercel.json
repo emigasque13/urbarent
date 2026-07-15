@@ -1,8 +1,17 @@
 {
-  "rewrites": [
+  "functions": {
+    "api/**/*": {
+      "runtime": "vercel-node@3.x"
+    }
+  },
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "/_build/(.*)",
+      "dest": "/.output/public/_build/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/.output/server/index.mjs"
     }
   ]
 }
